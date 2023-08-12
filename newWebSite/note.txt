@@ -1,0 +1,7 @@
+<ul>li*4>a - in asa mod automat iti creza o lista cu 4 elemete si inauntu a
+
+<ol><li>order list</li></ol>
+<dl>    <dt>Titul</dt>   <dd>decrieres</dd>  </dl>   Liste cu titlui si descriere pot sa le folosesc la coding skills
+            
+<a herf="https://google...." rel="noopener noreferrer nofollow" target="_blank"> smdn</a>
+Atributul: "rel" cu paramentrul "nofollow"- face ca google sa nu citeasc info depe lincul acesta deoarece nu este rileveant.

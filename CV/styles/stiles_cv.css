@@ -1,0 +1,105 @@
+/* Resettare margini e padding per il body e i suoi elementi figli */
+body, div {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F6F6FA;
+  margin: 20px;
+  padding: 20px;
+  
+  }
+  
+  /* Creare un contenitore per il layout a quadranti */
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 35% 1fr;
+    height: 100vh; /* Altezza del contenitore pari all'altezza della finestra del browser */
+  }
+  
+  /* Stily del quadrante superiore */
+  .top-container {
+    grid-column: 1 / span 2; /* Occupa le prime due colonne */
+    grid-row: 1; /* Occupa la prima riga */
+    display: grid;
+    grid-template-columns: 48% 1fr; /* Suddivisione in due colonne */
+  }
+  
+    /* Stile della sezione a sinistra nel quadrante superiore */
+    .top-left-container {
+      grid-template-columns: 40% 60%;
+      grid-template-rows: 100%;
+      height: 100vh;
+      padding: 20px;
+      background-image: url('/home/chif-vas/HTML/CV/images/bacgroud.png');
+      background-size: 100% 60%;
+      background-repeat: no-repeat;
+    }
+        /*Overlay image*/
+        .overlay-image {
+          top: 8%;
+          left: 33%;
+          position: fixed;
+          image-resolution: 100%;
+          max-width: auto;
+          height: 500px;
+          border-radius: 80px;
+        }
+        
+        /*Description-name-work titel*/
+        .small-decription {
+          top: 34%;
+          left: 35%;
+          position: fixed;
+          color: #f3eeee;
+          font-size: 22px;
+        }
+        .about-me-name {
+          top: 10%;
+          left: 5%;
+          position: absolute;
+          color: #afa2a2;
+          font-size: 88px;
+          font-weight: 700;
+        }
+        .about-me-profession {
+          top: 18%;
+          left: 5%;
+          position:fixed;
+          color: #afa2a2;
+          font-size: 77px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          text-align: right;
+        }
+        .profesion-style{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+
+    /* Stile della sezione a destra nel quadrante superiore */
+    .top-right-container {
+      background-color: #dcdcdc;
+      padding: 20px;
+    }
+  
+  /* Stile del quadrante inferiore */
+  .bottom-container {
+    grid-column: 1 / span 2; /* Occupa le prime due colonne */
+    grid-row: 2; /* Occupa la seconda riga */
+    display: grid;
+    grid-template-columns: 25% 1fr; /* Suddivisione in due colonne */
+  }
+  
+  /* Stile della sezione b sinistra nel quadrante inferiore */
+  .bottom-left-container {
+    background-color: #d3d3d3;
+    padding: 20px;
+  }
+  
+  /* Stile della sezione b destra nel quadrante inferiore */
+  .bottom-right-container {
+    background-color: #c0c0c0;
+    padding: 20px;
+  }
+  
